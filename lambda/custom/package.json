@@ -1,0 +1,22 @@
+{
+  "name": "tweet-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lehiart",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.3.0",
+    "ask-sdk-model": "^1.11.2",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
